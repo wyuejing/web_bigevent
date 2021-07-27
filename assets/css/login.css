@@ -1,0 +1,33 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/assets/images/login_bg.jpg');
+}
+.loginAndResBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+
+}
+.title-box {
+    height: 60px;
+    background: url('/assets/images/login_title.png') no-repeat center;
+}
+#login-box {
+    padding: 0 20px;
+}
+#reg-box {
+    padding: 0 20px;
+}
+#reg-box {
+    display: none;
+}
+#link_reg,
+#link_login {
+    float: right;
+}
