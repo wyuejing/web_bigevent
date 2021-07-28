@@ -18,16 +18,23 @@ body {
     height: 60px;
     background: url('/assets/images/login_title.png') no-repeat center;
 }
-#login-box {
-    padding: 0 20px;
-}
-#reg-box {
+.layui-form {
     padding: 0 20px;
 }
 #reg-box {
     display: none;
 }
-#link_reg,
-#link_login {
+.link {
     float: right;
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.layui-input {
+    padding-left: 32px;
 }
